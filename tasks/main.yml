@@ -9,4 +9,4 @@
 
 - name: Install the cask packages
   homebrew_cask: name={{ item }}
-  with_items: brew_packages
+  with_items: cask_packages

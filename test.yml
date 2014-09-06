@@ -2,5 +2,7 @@
 - hosts: localhost
   remote_user: root
   tasks:
+  - homebrew_tap: tap=caskroom/cask state=present
+  - homebrew: name=brew-cask
   - include_vars: test_vars.yml
   - include: tasks/main.yml
