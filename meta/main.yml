@@ -14,4 +14,4 @@ galaxy_info:
   - development
   - packaging
 dependencies:
-- src: osxc.homebrew
+- osxc.homebrew
