@@ -13,20 +13,9 @@ the same as the ones required by the dependencies
 
 | Name                  | Description                                      | Default            |
 |-----------------------|--------------------------------------------------|--------------------|
-| `packages`            | The list of packages to install                  | `[]`               |
+| `brew_packages`       | The list of the homebrew packages to install     | `[]`               |
+| `cask_packages`       | The list of the cask packages to install         | `[]`               |
 | `brew_taps`           | The brew taps you need to open before install    | `[]`               |
-
-### Package variables
-
-| Name                  | Description                                      | Default            |
-|-----------------------|--------------------------------------------------|--------------------|
-| `name`                | The name of this package                         | none, required     |
-| `type`                | The package manager you need to use              | `brew`             |
-
-Available package managers:
-
-- `brew`
-- `cask`
 
 ## Dependencies
 

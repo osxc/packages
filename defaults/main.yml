@@ -1,3 +1,4 @@
 ---
-packages: []
+brew_packages: []
+cask_packages: []
 brew_taps: []

@@ -1,7 +1,7 @@
 ---
-packages:
-- name: font-inconsolata
-  type: cask
-- name: ack
+brew_packages:
+- ack
+cask_packages:
+- font-inconsolata
 brew_taps:
 - caskroom/fonts
