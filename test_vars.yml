@@ -5,3 +5,5 @@ cask_packages:
 - font-inconsolata
 brew_taps:
 - caskroom/fonts
+brew_pkg_with_opts:
+- { pkg: "curl" , opts: "with-idn,with-openssl" }
