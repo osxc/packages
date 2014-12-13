@@ -18,7 +18,7 @@ the following are all **optional** and can be applied only as needed:
 | `brew_packages`       | The list of the homebrew packages to install     | `[]`               |
 | `cask_packages`       | The list of the cask packages to install         | `[]`               |
 | `brew_pkg_with_opts`  | A dict of homebrew packages to install with the  |                    |
-|                       | options seperated by commas, see exampe below    |                    |
+|                       | options seperated by commas, see example below.  |                    |
 
 ## Playbook example
 ```YAML
